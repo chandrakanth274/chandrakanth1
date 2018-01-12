@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Extensibility Accelerator Solution File, Format Version 10.00
+Project("{6227159D-D8A1-4DAF-BF40-C90673CDFA7D}") = "WebExt1", "WebExt1\WebExt1.weproj", "{25990D76-5BC1-4214-AE95-C6A93CED9214}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

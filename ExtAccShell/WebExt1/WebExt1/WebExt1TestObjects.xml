@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TypeInformation xsi:noNamespaceSchemaLocation="file:///C:/Program Files (x86)/HP/Extensibility Accelerator/bin/PackagesToLoad/ClassesDefintions.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" PackageName="WebExt1" AddinName="Web">
+  <ClassInfo GenericTypeID="Object" Name="WebExtNew1" BaseClassInfoName="WebElement">
+    <HelpInfo />
+    <IconInfo />
+    <TypeInfo>
+      <Operation Name="Select" PropertyType="Method" />
+    </TypeInfo>
+    <IdentificationProperties>
+      <IdentificationProperty Name="Property1" />
+    </IdentificationProperties>
+  </ClassInfo>
+</TypeInformation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Controls xsi:noNamespaceSchemaLocation="file:///C:/Program Files (x86)/HP/Extensibility Accelerator/bin/PackagesToLoad/Toolkit.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Control TestObjectClass="Control1">
+    <Settings>
+      <Variable name="default_imp_file" value="JavaScript\Control1.js" />
+    </Settings>
+    <Identification>
+      <Browser name="*">
+        <Conditions type="IdentifyIfPropMatch">
+          <Condition prop_name="className" expected_value="project jquery-ui" />
+          <Condition prop_name="tagName" expected_value="LI" />
+        </Conditions>
+      </Browser>
+    </Identification>
+    <Record>
+      <EventListening use_default_event_handling="false" />
+    </Record>
+  </Control>
+</Controls>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TypeInformation xsi:noNamespaceSchemaLocation="file:///C:/Program Files (x86)/HP/Extensibility Accelerator/bin/PackagesToLoad/ClassesDefintions.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" PackageName="WebExtTest2" AddinName="Web">
+  <ClassInfo GenericTypeID="Object" Name="Control1" BaseClassInfoName="WebElement">
+    <Description>jQuery UI Tab Control</Description>
+    <HelpInfo />
+    <IconInfo />
+    <TypeInfo>
+      <Operation Name="GetItemCount" PropertyType="Method" />
+      <Operation Name="GetItems" PropertyType="Method" />
+      <Operation Name="GetSelectedItem" PropertyType="Method" />
+      <Operation Name="Select" PropertyType="Method">
+        <Description>jllkj</Description>
+      </Operation>
+    </TypeInfo>
+    <IdentificationProperties>
+      <IdentificationProperty Name="all items" />
+      <IdentificationProperty Name="items count" />
+      <IdentificationProperty Name="logical name" ForDescription="true" />
+      <IdentificationProperty Name="selected" />
+    </IdentificationProperties>
+  </ClassInfo>
+</TypeInformation>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project InitialTargets="" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25990d76-5bc1-4214-ae95-c6a93ced9214}</ProjectGuid>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Name>WebExt1</Name>
+    <RootNamespace>WebExt1</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Help" />
+    <Folder Include="JavaScript" />
+    <Folder Include="Res" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JavaScript\Control1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="JavaScript\Control2.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="JavaScript\WebExtNew1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="WebExt1TestObjects.xml" />
+    <Content Include="WebExt1.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

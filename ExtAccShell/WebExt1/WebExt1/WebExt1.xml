@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Controls xsi:noNamespaceSchemaLocation="file:///C:/Program Files (x86)/HP/Extensibility Accelerator/bin/PackagesToLoad/Toolkit.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Control TestObjectClass="WebExtNew1">
+    <Settings>
+      <Variable name="default_imp_file" value="JavaScript\WebExtNew1.js" />
+    </Settings>
+    <Identification>
+      <Browser name="*">
+        <Conditions type="IdentifyIfPropMatch">
+          <Condition prop_name="xpath" expected_value="(//*[@id='center']/div/div[4]/div[3]/div/div)[4]" />
+        </Conditions>
+      </Browser>
+    </Identification>
+  </Control>
+</Controls>
